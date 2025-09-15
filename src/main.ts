@@ -21,7 +21,7 @@ async function bootstrap() {
     // credentials: true,
     origin: [
       'http://localhost:5173',        // React dev server         
-      'https://your-frontend.vercel.app' // sau này khi deploy frontend
+      'https://smartbox-front-end.vercel.app' // sau này khi deploy frontend
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
