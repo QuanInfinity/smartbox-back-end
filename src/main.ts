@@ -19,6 +19,12 @@ async function bootstrap() {
     // origin: ['http://localhost:51733', 'http://localhost:5173'], // Flutter Web + Vite
     // methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     // credentials: true,
+    origin: [
+      'http://localhost:5173',        // React dev server         
+      'https://your-frontend.vercel.app' // sau này khi deploy frontend
+    ],
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
   });
   
   app.useGlobalPipes(new ValidationPipe());
