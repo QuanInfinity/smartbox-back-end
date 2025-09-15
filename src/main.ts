@@ -20,7 +20,7 @@ async function bootstrap() {
     // methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     // credentials: true,
     origin: [
-      'http://localhost:5173',        // React dev server         
+      'http://localhost:51733',        // React dev server         
       'https://smartbox-front-end.vercel.app' // sau này khi deploy frontend
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
